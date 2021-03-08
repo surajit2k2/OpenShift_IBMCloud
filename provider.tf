@@ -1,4 +1,4 @@
-variable "ibm.cloud_api_key" {
+variable "ibmcloud_api_key" {
   default = "jnitJOxmfGmflroM69m2PsREIkCKZlVoHsjpDN0vQ6qV"
 }
 
