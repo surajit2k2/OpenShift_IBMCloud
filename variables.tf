@@ -7,16 +7,20 @@ variable "hardware" {
 }
 
 variable "datacenter" {
-  default = "wdc04"
+  default = "fra02"
 }
 
 variable "default_pool_size" {
   default = "2"
 }
 
-variable "private_vlan_id" {}
+variable "private_vlan_id" {
+  default = "2991204"
+}
 
-variable "public_vlan_id" {}
+variable "public_vlan_id" {
+  default = "2991202"
+}
 
 variable "cluster_name" {
   default = "iks_openshift"
