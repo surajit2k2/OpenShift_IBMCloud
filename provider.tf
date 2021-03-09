@@ -1,5 +1,5 @@
 variable "ibmcloud_api_key" {
-  default = "jnitJOxmfGmflroM69m2PsREIkCKZlVoHsjpDN0vQ6qV"
+  default = "8_R_7rp2dsHiOTtFbdkKdJnX8pQiE4o_8PVSiTS1X5et"
 }
 
 provider "ibm" {
