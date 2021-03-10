@@ -11,7 +11,7 @@ variable "datacenter" {
 }
 
 variable "default_pool_size" {
-  default = "3"
+  default = "2"
 }
 
 variable "private_vlan_id" {
@@ -23,7 +23,7 @@ variable "public_vlan_id" {
 }
 
 variable "cluster_name" {
-  default = "iks_openshift"
+  default = "iks_openshift6f47c68a"
 }
 
 variable kube_version {
